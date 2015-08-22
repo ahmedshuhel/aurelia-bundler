@@ -1,7 +1,7 @@
 {
   "name": "aurelia-bundler",
-  "version": "0.1.0",
-  "description": "Javascript and view bundling api for Aurelia application",
+  "version": "0.1.1",
+  "description": "JavaScript and View bundling api for Aurelia application",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +26,7 @@
     "bluebird": "^2.9.25",
     "glob": "^5.0.9",
     "globby": "^2.0.0",
-    "jspm": "^0.16.0-beta.7",
+    "jspm": "~0.16.0",
     "lodash": "^3.10.1",
     "systemjs-builder": "^0.13.0",
     "whacko": "^0.18.1"
