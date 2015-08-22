@@ -2,8 +2,6 @@
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
 
-var _interopRequireWildcard = require('babel-runtime/helpers/interop-require-wildcard')['default'];
-
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
@@ -24,10 +22,6 @@ var _fs2 = _interopRequireDefault(_fs);
 var _path = require('path');
 
 var _path2 = _interopRequireDefault(_path);
-
-var _logger = require('../logger');
-
-var log = _interopRequireWildcard(_logger);
 
 var _globby = require('globby');
 
@@ -57,7 +51,7 @@ function bundleTemplate(pattern, fileName, _opts) {
 
   if (_fs2['default'].existsSync(outfile)) {
     if (!options.force) {
-      log.err('A bundle named `' + outfile + '` is already exists. Use --force to overwrite.');
+      console.log('A bundle named `' + outfile + '` is already exists. Use --force to overwrite.');
       return;
     }
     _fs2['default'].unlinkSync(outfile);

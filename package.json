@@ -1,6 +1,6 @@
 {
   "name": "aurelia-bundler",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript and View bundling api for Aurelia application",
   "main": "dist/index.js",
   "scripts": {
